@@ -170,7 +170,7 @@ public class MapsActivity extends FragmentActivity implements
     {
         StringBuilder googleURL = new StringBuilder("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
         googleURL.append("location=" + latitide + "," + longitude);
-        googleURL.append("&radius=" + ProximityRadius);
+        googleURL.append("&radius=" +ProximityRadius);
         googleURL.append("&type=" + nearbyPlace);
         googleURL.append("&sensor=true");
         googleURL.append("&key=" + "AIzaSyAPGIfmnFxIPKdoRoDXClPxvvG9VxsFjAU");
